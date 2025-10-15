@@ -1,0 +1,12 @@
+{
+    "network_id": "avo-mainnet",
+    "chain_id": 1,
+    "protocol_version": "1.0.0",
+    "bootstrap_nodes": [
+        "/ip4/seed1.avoprotocol.com/tcp/30303/p2p/...",
+        "/ip4/seed2.avoprotocol.com/tcp/30303/p2p/...",
+        "/ip4/seed3.avoprotocol.com/tcp/30303/p2p/..."
+    ],
+    "discovery_enabled": true,
+    "max_peers": 100
+}

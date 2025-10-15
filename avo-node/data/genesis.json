@@ -1,0 +1,59 @@
+{
+    "version": "1.0.0",
+    "timestamp": 1725926400,
+    "initial_supply": "80000000000000000000000000",
+    "shard_count": 8,
+    "validators_per_shard": 21,
+    "consensus_algorithm": "DAG-PBFT",
+    "block_time_ms": 200,
+    "genesis_accounts": [
+        {
+            "address": "0xaf34b77B25289a3b8700eF363d0AB568BE01456c",
+            "balance": "50000000000000000000000000",
+            "name": "Private Sale - Strategic Investors (UNLOCKED)",
+            "status": "UNLOCKED - Ready to spend"
+        },
+        {
+            "address": "0xd913b7e2f3aF1D783330C76C84b202d194faed28",
+            "balance": "10000000000000000000000000",
+            "name": "Team Allocation - 1 Year Vesting Lock",
+            "vesting_lock_until": "2026-09-26T00:00:00Z",
+            "status": "LOCKED 1 year"
+        },
+        {
+            "address": "0x6F3DA5FEc8eBb3827a9da7CFE9cB1EaD64493eF8", 
+            "balance": "8000000000000000000000000",
+            "name": "Development Treasury - Core Protocol Development"
+        },
+        {
+            "address": "0xE84f43cBc43BFa79Ddf1a612bC4323Da6682103f",
+            "balance": "5000000000000000000000000",
+            "name": "Main Treasury - Governance & Operations"
+        },
+        {
+            "address": "0x4267b2a860a5c047D7EF1492F5c9c08849982dDc",
+            "balance": "3000000000000000000000000", 
+            "name": "Marketing Treasury - Growth & Partnerships"
+        },
+        {
+            "address": "0x0ECeCD0628f8Eca388D0502Efc3900cF3c494F4f",
+            "balance": "2000000000000000000000000",
+            "name": "Security Treasury - Audits & Bug Bounties"
+        },
+        {
+            "address": "0xB23953C4fdA83f78b3A47e3979A5b1B40075D68a",
+            "balance": "1500000000000000000000000",
+            "name": "Community Treasury - Ecosystem Incentives"
+        },
+        {
+            "address": "0xfbb00276F854800C565404123A5a45a575805D1f",
+            "balance": "500000000000000000000000",
+            "name": "Emergency Treasury - Protocol Emergency Fund"
+        }
+    ],
+    "network_params": {
+        "max_tx_per_block": 50000,
+        "gas_limit": 30000000,
+        "base_fee": 1000000000
+    }
+}
