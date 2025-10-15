@@ -1,0 +1,28 @@
+node_id = "avo-node-1757861217588"
+network_port = 30303
+consensus_port = 30304
+rpc_port = 8545
+rpc_enabled = true
+data_dir = "./data"
+is_validator = false
+max_peers = 50
+
+[discovery]
+enabled = true
+bootstrap_nodes = []
+discovery_interval = 30
+
+[consensus]
+block_time_ms = 1000
+epoch_duration_ms = 30000
+finality_threshold = 0.67
+shard_count = 4
+validators_per_shard = 8
+
+[dev]
+auto_vote_enabled = true
+generate_real_blocks = true
+
+[logging]
+level = "info"
+log_to_file = false
